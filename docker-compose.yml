@@ -1,0 +1,12 @@
+version: "2"
+services:
+
+  redash:
+    build: build
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 20000
+        hard: 40000
+    ports:
+      - "8888:8888"
