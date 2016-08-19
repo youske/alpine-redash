@@ -30,3 +30,11 @@ docker-compose up --no-color --no-deps jupyterimage
   + metakernel_bash
   + metakernel_python
   + redis_kernel
+
+
+
+
+https://raw.githubusercontent.com/getredash/redash/master/setup/ubuntu/bootstrap.sh
+
+
+https://github.com/doomsplayer/redash/blob/master/Dockerfile
